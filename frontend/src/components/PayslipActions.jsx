@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://payroll-system-h50d.onrender.com";
 
 export default function PayslipActions({ employees, selectedIds }) {
   const [loading, setLoading] = useState(false);
