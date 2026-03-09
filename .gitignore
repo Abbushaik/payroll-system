@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated PDFs
+backend/generated_payslips/
+
+# Temp files
+backend/data/temp_*
+
+# Node modules
+frontend/node_modules/
+
+# Vite build
+frontend/dist/
+
+# Environment
+.env

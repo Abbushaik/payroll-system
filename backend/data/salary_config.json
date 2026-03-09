@@ -1,0 +1,52 @@
+{
+  "salary_config": {
+    "Intern": {
+      "allowances": {
+        "hra_percent": 40,
+        "travel_allowance": 1000,
+        "medical_allowance": 500
+      },
+      "deductions": {
+        "pf_percent": 0,
+        "professional_tax": 0,
+        "tds_percent": 0
+      }
+    },
+    "Junior": {
+      "allowances": {
+        "hra_percent": 40,
+        "travel_allowance": 1500,
+        "medical_allowance": 1000
+      },
+      "deductions": {
+        "pf_percent": 12,
+        "professional_tax": 200,
+        "tds_percent": 0
+      }
+    },
+    "Senior": {
+      "allowances": {
+        "hra_percent": 40,
+        "travel_allowance": 2000,
+        "medical_allowance": 1500
+      },
+      "deductions": {
+        "pf_percent": 12,
+        "professional_tax": 200,
+        "tds_percent": 5
+      }
+    },
+    "Manager": {
+      "allowances": {
+        "hra_percent": 40,
+        "travel_allowance": 3000,
+        "medical_allowance": 2000
+      },
+      "deductions": {
+        "pf_percent": 12,
+        "professional_tax": 200,
+        "tds_percent": 10
+      }
+    }
+  }
+}
